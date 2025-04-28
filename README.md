@@ -384,6 +384,12 @@ To declare a variable in JavaScript, use `let` or `const`.
 
 To declare a variable in JavaScript, use `let` or `const`.
 
+<!-- START "Jump to Top"-->
+<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
+  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+</p>
+<!-- END "Jump to Top" -->
+
 ## Horizontal Rule
 
 You can create a horizontal rule by using three or more dashes (`---`), asterisks (`***`), or underscores (`___`), each on its own line. Using `---` is preferred for a clean, professional appearance and aligns with GitHub-flavored Markdown standards; therefore, it is the recommended practice.
