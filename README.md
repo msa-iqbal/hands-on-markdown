@@ -1449,7 +1449,7 @@ This is very useful when:
 
 <p align="center">This is a paragraph using HTML inside Markdown.</p>
 
-⚠️ **GitHub README restrictions:**
+⚠︎ **GitHub README restrictions:**
 
 - Disallows `<iframe>`, `<script>`, `<style>` for security reasons.
 
