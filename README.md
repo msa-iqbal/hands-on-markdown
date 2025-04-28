@@ -255,7 +255,7 @@ Markdown makes docs <!-- and life --> easier.
 **Example (Blockquotes with Other Elements):**
 
 ````markdown
-> To print in JavaScript:
+> To print in JavaScript
 >
 > ```javascript
 > console.log("Hello, Always Smile!");
