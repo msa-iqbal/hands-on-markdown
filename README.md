@@ -487,7 +487,7 @@ You don't need to manually wrap it inside `[text](url)` unless you want custom t
 **Example (Image with Link):**
 
 ```markdown
-[![Visit Google](./assets/images/signature.png)](https://www.flickr.com/photos/spnkhn/albums/)
+[![Signature](./assets/images/signature.png)](https://www.flickr.com/photos/spnkhn/albums/)
 ```
 
 **Output:**
