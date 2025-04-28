@@ -1468,7 +1468,7 @@ To add a footnote in Markdown, you use the following format:
 
 - Below the text, provide the reference using the same number in square brackets, followed by a colon and the footnote content.
 
-**Example(Basic):**
+**Example (Basic):**
 
 ```markdown
 This is a sentence with a footnote reference.[^1]
@@ -1482,7 +1482,7 @@ This is a sentence with a footnote reference.[^1]
 
 [^1]: This is the footnote content.
 
-**Example(Footnote with Links):**
+**Example (Footnote with Links):**
 
 ```markdown
 Learn more about Markdown at [Markdown Guide](https://www.markdownguide.org).
