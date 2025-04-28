@@ -1439,7 +1439,7 @@ This is very useful when:
 - **Videos/iframes** - Markdown doesn't support embeds
 - **Div blocks** - Custom layout and styling
 
-**Example - HTML inside Markdown:**
+**Example (HTML inside Markdown):**
 
 ```html
 <p align="center">his is a paragraph using HTML inside Markdown.</p>
@@ -1449,7 +1449,7 @@ This is very useful when:
 
 <p align="center">This is a paragraph using HTML inside Markdown.</p>
 
-**GitHub README restrictions:**
+⚠️ **GitHub README restrictions:**
 
 - Disallows `<iframe>`, `<script>`, `<style>` for security reasons.
 
