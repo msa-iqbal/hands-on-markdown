@@ -1423,12 +1423,11 @@ Use a backslash `\` before the special character.
 
 ## HTML in Markdown
 
-**Markdown fully supports raw HTML** — meaning you can directly embed HTML tags inside your .md files.
+**Markdown fully supports raw HTML** — meaning you can directly embed HTML tags inside your `.md` files.
 
 This is very useful when:
 
 - Markdown Example is too limited
-
 - You need more control (like tables, styled images, videos, divs)
 
 **Some Common Use Cases:**
