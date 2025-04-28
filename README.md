@@ -445,12 +445,12 @@ You can create a horizontal rule by using three or more dashes (`---`), asterisk
 **Example (Open a Link in a New Tab):**
 
 ```markdown
-<a href="https://www.flickr.com/photos/spnkhn/albums/" target="_blank" >My Drive</a>
+<a href="https://www.flickr.com/photos/spnkhn/albums/" target="_blank">My Drive</a>
 ```
 
 **Output:**
 
-<a href="https://www.flickr.com/photos/spnkhn/albums/" target="_blank" >My Drive</a>
+<a href="https://www.flickr.com/photos/spnkhn/albums/" target="_blank">My Drive</a>
 
 💡 Tips: When you paste a full URL (like `https://example.com`) directly into a Markdown file without any special Example, most Markdown renderers will automatically turn it into a clickable link.
 
