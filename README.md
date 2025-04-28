@@ -205,12 +205,12 @@ In Markdown, there’s no native comment Example, but you can safely use HTML co
 **Example:**
 
 ```markdown
-Learning Markdown is simple <!-- especially if you practice daily --> and very useful for documentation and blogs.
+Markdown makes docs <!-- and life --> easier.
 ```
 
 **Output:**
 
-Learning Markdown is simple <!-- especially if you practice daily --> and very useful for documentation and blogs.
+Markdown makes docs <!-- and life --> easier.
 
 <!-- START "Jump to Top" -->
 <p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
@@ -255,7 +255,7 @@ Learning Markdown is simple <!-- especially if you practice daily --> and very u
 **Example (Blockquotes with Other Elements):**
 
 ````markdown
-> To print in Python:
+> To print in JavaScript:
 >
 > ```javascript
 > console.log("Hello, Always Smile!");
