@@ -600,7 +600,7 @@ Use the `console.log()` function to print output in JavaScript.
 
 ### Multiline Code Block (Fenced Code Block)
 
-Use three backticks ( ``\` ) before and after your code. You can also specify a language for syntax highlighting (like `javaScript`, `rust`, `markdown`, `mermaid`, `plaintext`, etc.).
+Use three backticks ( ``\` ) before and after your code. You can also specify a language for syntax highlighting (like javaScript, rust, markdown, mermaid, plaintext, etc.).
 
 ````
 ``` <preferred_language>
