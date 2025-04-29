@@ -69,8 +69,8 @@ This repository is a practical guide and playground for mastering **Markdown syn
 ###### H6 - Heading 6
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -87,8 +87,8 @@ This repository is a practical guide and playground for mastering **Markdown syn
 **Bold Text**
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -105,8 +105,8 @@ _Italic Text_
 _Italic Text_
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -123,8 +123,8 @@ _**Bold and Italic Text**_
 _**Bold and Italic Text**_
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -133,8 +133,8 @@ _**Bold and Italic Text**_
 In Markdown, to create a line break, add two or more spaces at the end of a line and then press `Enter`. Alternatively, you can insert an explicit `<br>` tag where you want the line to break.
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -153,8 +153,8 @@ It adds a horizontal line through the text.
 ~~This text will be strikethrough~~
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -173,8 +173,8 @@ Here is some normal text, and <u>here is underlined text</u> inside the same lin
 Here is some normal text, and <u>here is underlined text</u> inside the same line.
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -193,8 +193,8 @@ This is <mark>highlighted</mark> text.
 This is <mark>highlighted</mark> text.
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -271,8 +271,8 @@ Markdown makes docs <!-- and life --> easier.
 > ```
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -317,8 +317,8 @@ Markdown makes docs <!-- and life --> easier.
 💡 Note: Numbers auto-fix, formatting (bold, italic, links) allowed, indent 4 spaces for sublists.
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -367,8 +367,8 @@ Markdown makes docs <!-- and life --> easier.
 💡 Note: Numbers auto-fix, formatting (bold, italic, links) allowed, indent 4 spaces for sublists.
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -385,8 +385,8 @@ To declare a variable in JavaScript, use `let` or `const`.
 To declare a variable in JavaScript, use `let` or `const`.
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -405,8 +405,8 @@ You can create a horizontal rule by using three or more dashes (`---`), asterisk
 ---
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -457,8 +457,8 @@ You can create a horizontal rule by using three or more dashes (`---`), asterisk
 You don't need to manually wrap it inside `[text](url)` unless you want custom text.
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -521,8 +521,8 @@ Markdown alone doesn’t officially support visible image captions. But there ar
 </figure>
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -572,14 +572,37 @@ Markdown alone doesn’t officially support visible image captions. But there ar
 | Cherry     |    Mango     |      Carrot |
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
 ## Code Block
 
+Markdown offers two main ways to create code blocks:
+
+- Inline Code Block
+- Multiline Code Block (Fenced Code Block)
+
+### Inline Code Block
+
+Use single backticks ( ` ) to show small bits of code in a line.
+
 **Example:**
+
+```markdown
+Use the `console.log()` function to print output in JavaScript.
+```
+
+**Output:**
+
+Use the `console.log()` function to print output in JavaScript.
+
+**Example:**
+
+### Multiline Code Block (Fenced Code Block)
+
+Use three backticks ( ``\` ) before and after your code. You can also specify a language for syntax highlighting (like `javaScript`, `rust`, `markdown`, `mermaid`, `plaintext`, etc.).
 
 ````
 ``` <preferred_language>
@@ -590,12 +613,14 @@ Markdown alone doesn’t officially support visible image captions. But there ar
 ```
 ````
 
-💡 Note: For Example highlighting, specify the language immediately after the first set of triple backticks. If no Example highlighting is required, use `markdown` after the triple backticks _(recommended)_.
+**Code Block with Syntax Highlighting**  
+Use this to display code with color highlighting for a specific language like `c`, `c++`, `javaScript`, `rust`, etc.
 
 **Example:**
 
 ````
 ```javascript
+
 const emojis = ["😀", "🎉", "🚀", "🌈", "🍕", "🐶", "🌟"];
 
 function getRandomEmoji() {
@@ -623,9 +648,63 @@ function getRandomEmoji() {
 console.log("Your random emoji is:", getRandomEmoji());
 ```
 
+**Code Block for Markdown Syntax (`markdown`)**  
+You use `markdown` after triple backticks **only when you want to include formatted Markdown content inside a code block,** such as showing examples of Markdown syntax.
+
+**Example:**
+
+````
+```markdown
+
+# This is a Markdown heading
+
+**This text will appear bold**
+
+- List item 1
+- List item 2
+
+```
+````
+
+**Output:**
+
+```markdown
+# This is a Markdown heading
+
+**This text will appear bold**
+
+- List item 1
+- List item 2
+```
+
+**Code Block for Diagrams or Plain Text (`plaintext`)**  
+In Markdown, if you're **writing a diagram using only text or symbols,** it's a good practice (but not required) to **wrap it in a code block** using triple backticks and specify `plaintext` or nothing at all.
+
+**Example:**
+
+````
+```plaintext
+
+Index:  0   1   2   3   4
+Value: 10  20  30  40  50
+            ↑
+        numbers[2]
+
+```
+````
+
+**Output:**
+
+```plaintext
+Index:  0   1   2   3   4
+Value: 10  20  30  40  50
+            ↑
+        numbers[2]
+```
+
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -698,8 +777,8 @@ Detailed minor updates.
 [Minor Updates](#subsection-updates)
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -734,8 +813,8 @@ A task list lets you create checkboxes (☑ / ⏹) in Markdown.
 - [x] Push first commit
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -809,8 +888,8 @@ On platforms like GitHub, you can use emoji shortcodes:
 💡 Tips: Use HTML entities (`&copy;`, `&rarr;`, etc) if you want maximum compatibility across different Markdown renderers.
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -839,8 +918,8 @@ I love coding! :coffee:
 I love coding! :coffee:
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -913,8 +992,8 @@ $$
 $$
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -1249,8 +1328,8 @@ stateDiagram-v2
 ```
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -1301,8 +1380,8 @@ Here is some hidden content that only appears when you click the dropdown!
 </details>
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -1340,8 +1419,8 @@ Explanation:
 - Fallback img is also light-image.png.
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -1374,8 +1453,8 @@ In Markdown, you can **embed a YouTube video** using a simple method with a link
 [![Guns N' Roses - November Rain](https://img.youtube.com/vi/8SbUC-UaAxE/maxresdefault.jpg)](https://www.youtube.com/watch?v=8SbUC-UaAxE)
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -1416,8 +1495,8 @@ Use a backslash `\` before the special character.
 | `\|Table\|`             | \|Table\| (no table format) |
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -1455,8 +1534,8 @@ This is very useful when:
 - Basic tags like `<p>`, `<img>`, `<table>`, `<div>`, `<span>` are allowed.
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
@@ -1497,8 +1576,8 @@ Learn more about Markdown at [Markdown Guide](https://www.markdownguide.org)[^2]
 [^2]: The source of Markdown documentation is [here](https://www.markdownguide.org/).
 
 <!-- START "Jump to Top"-->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
