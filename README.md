@@ -612,7 +612,7 @@ Use three backticks ( ``\` ) before and after your code. You can also specify a 
 ````
 
 **Code Block with Syntax Highlighting**  
-Use this to display code with color highlighting for a specific language like `c`, `c++`, `javaScript`, `rust`, etc.
+Use this to display code with color highlighting for a specific language like `c`, `c++`, `javascript`, `rust`, etc.
 
 **Example:**
 
