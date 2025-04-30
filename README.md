@@ -11,30 +11,32 @@ This repository is a practical guide and playground for mastering **Markdown syn
 4. [Bold & Italic](#bold--italic)
 5. [Line Breaks](#line-breaks)
 6. [Strikethrough](#strikethrough)
-7. [Underline](#underline)
-8. [Highlight](#highlight)
-9. [Comments](#comments)
-10. [Blockquote](#blockquote)
-11. [Ordered List](#ordered-list)
-12. [Unordered List](#unordered-list)
-13. [Code](#code)
-14. [Horizontal Rule](#horizontal-rule)
-15. [Link](#link)
-16. [Image](#image)
-17. [Table](#table)
-18. [Code Block](#code-block)
-19. [Heading ID](#heading-id)
-20. [Task List](#task-list)
-21. [Symbols](#symbols)
-22. [Emoji](#emoji)
-23. [Mathematical Expressions](#mathematical-expressions)
-24. [Diagrams](#diagrams)
-25. [Dropdown](#dropdown)
-26. [Image Based on Theme](#image-based-on-theme-lightdark)
-27. [Embed YouTube Video](#embed-youtube-video)
-28. [Escaping Characters](#escaping-characters)
-29. [HTML in Markdown](#html-in-markdown)
-30. [Footnotes](#footnotes)
+7. [SuperScript & Subscript](#superscript--subscript)
+8. [Underline](#underline)
+9. [Highlight](#highlight)
+10. [Comments](#comments)
+11. [Blockquote](#blockquote)
+12. [Ordered List](#ordered-list)
+13. [Unordered List](#unordered-list)
+14. [Code](#code)
+15. [Horizontal Rule](#horizontal-rule)
+16. [Link](#link)
+17. [Image](#image)
+18. [Table](#table)
+19. [Code Block](#code-block)
+20. [Heading ID](#heading-id)
+21. [Task List](#task-list)
+22. [Symbols](#symbols)
+23. [Emoji](#emoji)
+24. [Alerts](#alerts)
+25. [Mathematical Expressions](#mathematical-expressions)
+26. [Diagrams](#diagrams)
+27. [Dropdown](#dropdown)
+28. [Image Based on Theme](#image-based-on-theme-lightdark)
+29. [Embed YouTube Video](#embed-youtube-video)
+30. [Escaping Characters](#escaping-characters)
+31. [HTML in Markdown](#html-in-markdown)
+32. [Footnotes](#footnotes)
 
 ## Headings
 
@@ -158,14 +160,34 @@ It adds a horizontal line through the text.
 </p>
 <!-- END "Jump to Top" -->
 
+## SuperScript & Subscript
+
+Markdown itself doesn’t officially support superscript (`<sup>`) & subscript (`sub`), but depending on the platform (like GitHub, VS Code Preview, or Markdown renderers with HTML support), you can use HTML tags for this.
+
+**Example:**
+
+```html
+E = mc<sup>2</sup> (Einstein's formula) <br />
+This is H<sub>2</sub>O (water)
+```
+
+**Output:**  
+E = mc<sup>2</sup> (Einstein's formula) <br />
+This is H<sub>2</sub>O (water)
+
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
+</p>
+
 ## Underline
 
 Standard Markdown does not natively support underlining. However, you can simulate underlining by using HTML tags within your Markdown content.
 
 **Example:**
 
-```markdown
-Here is some normal text, and <u>here is underlined text</u> inside the same line.
+```html
+Here is some normal text, and <u>here is underlined text</u> inside the same
+line.
 ```
 
 **Output:**
@@ -184,7 +206,7 @@ Markdown itself does not have built-in Example for highlighting text. However, y
 
 **Example:**
 
-```markdown
+```html
 This is <mark>highlighted</mark> text.
 ```
 
@@ -204,8 +226,10 @@ In Markdown, there’s no native comment Example, but you can safely use HTML co
 
 **Example:**
 
-```markdown
-Markdown makes docs <!-- and life --> easier.
+```html
+Markdown makes docs
+<!-- and life -->
+easier.
 ```
 
 **Output:**
@@ -314,7 +338,8 @@ Markdown makes docs <!-- and life --> easier.
       1. Deeply nested item
 3. Third item
 
-💡 Note: Numbers auto-fix, formatting (bold, italic, links) allowed, indent 4 spaces for sublists.
+> [!NOTE]
+> Numbers auto-fix, formatting (bold, italic, links) allowed, indent 4 spaces for sublists.
 
 <!-- START "Jump to Top"-->
 <p align="right">
@@ -364,7 +389,8 @@ Markdown makes docs <!-- and life --> easier.
    - Node.js
    - Express.js
 
-💡 Note: Numbers auto-fix, formatting (bold, italic, links) allowed, indent 4 spaces for sublists.
+> [!NOTE]
+> Numbers auto-fix, formatting (bold, italic, links) allowed, indent 4 spaces for sublists.
 
 <!-- START "Jump to Top"-->
 <p align="right">
@@ -376,7 +402,7 @@ Markdown makes docs <!-- and life --> easier.
 
 **Example:**
 
-```
+```markdown
 To declare a variable in JavaScript, use `let` or `const`.
 ```
 
@@ -444,15 +470,18 @@ You can create a horizontal rule by using three or more dashes (`---`), asterisk
 
 **Example (Open a Link in a New Tab):**
 
-```markdown
-<a href="https://www.flickr.com/photos/spnkhn/albums/" target="_blank">My Drive</a>
+```html
+<a href="https://www.flickr.com/photos/spnkhn/albums/" target="_blank"
+  >My Drive</a
+>
 ```
 
 **Output:**
 
 <a href="https://www.flickr.com/photos/spnkhn/albums/" target="_blank">My Drive</a>
 
-💡 Tips: When you paste a full URL (like `https://example.com`) directly into a Markdown file without any special Example, most Markdown renderers will automatically turn it into a clickable link.
+> [!TIP]
+> When you paste a full URL (like `https://example.com`) directly into a Markdown file without any special Example, most Markdown renderers will automatically turn it into a clickable link.
 
 You don't need to manually wrap it inside `[text](url)` unless you want custom text.
 
@@ -600,7 +629,7 @@ Use the `console.log()` function to print output in JavaScript.
 
 ### Multiline Code Block (Fenced Code Block)
 
-Use three backticks ( ``\` ) before and after your code. You can also specify a language for syntax highlighting (like javascript, rust, markdown, mermaid, plaintext, etc.).
+Use three backticks ( ``\` ) before and after your code. You can also specify a language for syntax highlighting (like as javascript, rust, markdown, mermaid, plaintext, etc.).
 
 ````
 ``` <preferred_language>
@@ -861,7 +890,7 @@ You can insert special symbols using HTML entities:
 
 **Example:**
 
-```markdown
+```html
 &copy; 2025 MyWebsite &mdash; All rights reserved.
 ```
 
@@ -883,7 +912,8 @@ On platforms like GitHub, you can use emoji shortcodes:
 
 :smile: :rocket: :heart: :star:
 
-💡 Tips: Use HTML entities (`&copy;`, `&rarr;`, etc) if you want maximum compatibility across different Markdown renderers.
+> [!TIP]
+> Use HTML entities (`&copy;`, `&rarr;`, etc) if you want maximum compatibility across different Markdown renderers.
 
 <!-- START "Jump to Top"-->
 <p align="right">
@@ -914,6 +944,98 @@ I love coding! :coffee:
 **Output:**
 
 I love coding! :coffee:
+
+<!-- START "Jump to Top"-->
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
+</p>
+<!-- END "Jump to Top" -->
+
+## Alerts
+
+Alerts in Markdown (on GitHub) are styled blockquotes used to highlight important info with icons and colors. Use them sparingly—no more than 1–2 per article—and avoid placing them back-to-back or nesting them.
+
+To create one, start with `> [!TYPE]`, then write the message. Supported types:
+
+### `[!NOTE]` — General Info
+
+To provide extra information that adds context.
+
+**Example:**
+
+```markdown
+> [!NOTE]
+> Git commits are snapshots of your code at a given time.
+```
+
+**Output:**
+
+> [!NOTE]
+> Git commits are snapshots of your code at a given time.
+
+### `[!TIP]` — Helpful Advice
+
+To share best practices or shortcuts.
+
+**Example:**
+
+```markdown
+> [!TIP]
+> Use `git status` often to stay aware of your changes.
+```
+
+**Output:**
+
+> [!TIP]
+> Use `git status` often to stay aware of your changes.
+
+### `[!IMPORTANT]` — Essential for Success
+
+To point out information `critical to success.`
+
+**Example:**
+
+```markdown
+> [!IMPORTANT]
+> Always commit your changes before switching branches to avoid losing work.
+```
+
+**Output:**
+
+> [!IMPORTANT]
+> Always commit your changes before switching branches to avoid losing work.
+
+### `[!WARNING]` — Urgent Caution
+
+To alert users about things that might cause problems **right now.**
+
+**Example:**
+
+```markdown
+> [!WARNING]
+> Don’t use `git push --force` unless you fully understand the consequences.
+```
+
+**Output:**
+
+> [!WARNING]
+> Don’t use `git push --force` unless you fully understand the consequences.
+
+### `[!CAUTION]` — Risk Alert
+
+To warn about `possible negative effects` or mistakes.
+
+**Example:**
+
+```markdown
+> [!CAUTION]
+> Renaming branches in shared repositories can confuse collaborators.
+```
+
+**Output:**
+
+> [!CAUTION]
+> Renaming branches in shared repositories can confuse collaborators.
 
 <!-- START "Jump to Top"-->
 <p align="right">
@@ -975,7 +1097,7 @@ You can use the following **LaTeX math operators** within Markdown:
 - **Trigonometric functions**: `\sin`, `\cos`, `\tan`
 - **Mathematical symbols**: `\pi`, `\infty`, `\geq`
 
-Example: Complex Math Expression
+**Example (Complex Math Expression):**
 
 ```latex
 $$
@@ -983,7 +1105,7 @@ $$
 $$
 ```
 
-Output:
+**Output:**
 
 $$
 \int_{0}^{\infty} \frac{1}{x^2 + 1} dx = \frac{\pi}{2}
@@ -1019,11 +1141,10 @@ The simplest method is to create the diagram with an external tool (e.g., draw.i
 
 GitHub Flavored Markdown supports **Mermaid diagrams**, which allows you to draw **flowcharts, sequence diagrams, class diagrams,** etc., using simple text Example.
 
-💡 Note:
-
-- You need to make sure the platform you're using (like GitHub, GitLab, or a Markdown editor) supports Mermaid diagrams to render them properly.
-
-- If you are working with Mermaid diagrams in VSCode, it is recommended to install the **Mermaid** official extension.
+> [!NOTE]
+>
+> - You need to make sure the platform you're using (like GitHub, GitLab, or a Markdown editor) supports Mermaid diagrams to render them properly.
+> - If you are working with Mermaid diagrams in VSCode, it is recommended to install the **Mermaid** official extension.
 
 Mermaid code is written inside code blocks using the `mermaid` keyword, and the diagrams are rendered by supported platforms.
 
@@ -1338,28 +1459,23 @@ However, you can achieve dropdown-like (collapsible) behavior using HTML `<detai
 
 **Example (In HTML):**
 
-```markdown
+```html
 <details>
   <summary>Click to expand</summary>
 
-Content inside the dropdown.
-
+  Content inside the dropdown.
 </details>
 ```
 
 **Example:**
 
-```markdown
+```html
 <details>
   <summary>See More Details</summary>
 
-Here is some hidden content that only appears when you click the dropdown!
-
-- Point 1
-- Point 2
-- **Bold Content**
-- [Link to somewhere](https://example.com)
-
+  Here is some hidden content that only appears when you click the dropdown! -
+  Point 1 - Point 2 - **Bold Content** - [Link to
+  somewhere](https://example.com)
 </details>
 ```
 
@@ -1392,11 +1508,17 @@ You can use HTML `<picture>`, `<source>`, and `<img>` tags inside your Markdown 
 
 **Example (In HTML):**
 
-```markdown
+```html
 <picture>
-  <source srcset="./assets/images/dark-mode.png" media="(prefers-color-scheme: dark)">
-  <source srcset="./assets/images/light-mode.png" media="(prefers-color-scheme: light)">
-  <img src="./assets/images/light-mode.png" alt="Image based on Theme">
+  <source
+    srcset="./assets/images/dark-mode.png"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="./assets/images/light-mode.png"
+    media="(prefers-color-scheme: light)"
+  />
+  <img src="./assets/images/light-mode.png" alt="Image based on Theme" />
 </picture>
 ```
 
