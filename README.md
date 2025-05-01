@@ -38,6 +38,16 @@ This repository is a practical guide and playground for mastering **Markdown syn
 31. [HTML in Markdown](#html-in-markdown)
 32. [Footnotes](#footnotes)
 
+> [!TIP]
+>
+> **Recommended VSCode Extensions for Markdown Productivity**
+>
+> If you're using Visual Studio Code to write and preview Markdown files, the following extensions are highly recommended to enhance your productivity and workflow:
+>
+> - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) - Offers shortcuts, auto preview, TOC generation, and more. A must-have for any Markdown writer.
+> - [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) - Lints your Markdown files based on best practices and formatting consistency.
+> - [Mermaid Chart](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) - Enables rendering of [Mermaid](https://mermaid.js.org/intro/) diagrams inside Markdown previews. Perfect for visual documentation.
+
 ## Headings
 
 **Example:**
@@ -1647,11 +1657,14 @@ This is very useful when:
 
 <p align="center">This is a paragraph using HTML inside Markdown.</p>
 
-⚠︎ **GitHub README restrictions:**
+<!-- markdownlint-disable MD013 MD032 -->
 
-- Disallows `<iframe>`, `<script>`, `<style>` for security reasons.
-
-- Basic tags like `<p>`, `<img>`, `<table>`, `<div>`, `<span>` are allowed.
+> [!CAUTION]
+>
+> **GitHub README restrictions:**
+>
+> - Disallows `<iframe>`, `<script>`, `<style>` for security reasons.
+> - Basic tags like `<p>`, `<img>`, `<table>`, `<div>`, `<span>` are allowed.
 
 <!-- START "Jump to Top"-->
 <p align="right">
