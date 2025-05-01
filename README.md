@@ -51,6 +51,8 @@ Supercharge your productivity when writing and previewing Markdown in **Visual S
 - [**Mermaid Chart**](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)  
   Instantly render [Mermaid](https://mermaid.js.org/intro/) diagrams for flowcharts, graphs, and more — right in the preview.
 
+Press `Ctrl + Shift + V` to open the preview pane and see your Markdown rendered in VSCode.
+
 ---
 
 ## Headings
@@ -252,8 +254,8 @@ easier.
 Markdown makes docs <!-- and life --> easier.
 
 <!-- START "Jump to Top" -->
-<p align="right" style="font-size: 16px; font-weight: 600; margin-top: 24px;">
-  <a href="#table-of-contents" style="text-decoration: none; color: #0366d6;">Jump to Top ▲</a>
+<p align="right" >
+  <a href="#table-of-contents" >Jump to Top ▲</a>
 </p>
 <!-- END "Jump to Top" -->
 
