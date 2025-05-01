@@ -38,22 +38,27 @@ This repository is a practical guide and playground for mastering **Markdown syn
 31. [HTML in Markdown](#html-in-markdown)
 32. [Footnotes](#footnotes)
 
-> [!TIP]
->
-> **Recommended VSCode Extensions for Markdown Productivity**
->
-> If you're using Visual Studio Code to write and preview Markdown files, the following extensions are highly recommended to enhance your productivity and workflow:
->
-> - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) - Offers shortcuts, auto preview, TOC generation, and more. A must-have for any Markdown writer.
-> - [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) - Lints your Markdown files based on best practices and formatting consistency.
-> - [Mermaid Chart](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) - Enables rendering of [Mermaid](https://mermaid.js.org/intro/) diagrams inside Markdown previews. Perfect for visual documentation.
+### 🛠️ Boost Your Markdown Workflow in VS Code
+
+Supercharge your productivity when writing and previewing Markdown in **Visual Studio Code** with these powerful extensions:
+
+- [**Markdown All in One**](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)  
+  All-in-one support for shortcuts, live preview, TOC generation, and more.
+
+- [**Markdownlint**](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)  
+  Ensures clean, consistent, and error-free Markdown with real-time linting.
+
+- [**Mermaid Chart**](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)  
+  Instantly render [Mermaid](https://mermaid.js.org/intro/) diagrams for flowcharts, graphs, and more — right in the preview.
+
+---
 
 ## Headings
 
 **Example:**
 
 ```markdown
-# H1 - Heading 1
+# H1 - Heading **1**
 
 ## H2 - Heading 2
 
