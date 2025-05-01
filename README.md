@@ -38,7 +38,7 @@ This repository is a practical guide and playground for mastering **Markdown syn
 31. [HTML in Markdown](#html-in-markdown)
 32. [Footnotes](#footnotes)
 
-### 🛠️ Boost Your Markdown Workflow in VS Code
+### <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2699_fe0f/512.gif" alt="⚙" width="15" height="15"> Boost Your Markdown Workflow in VS Code
 
 Supercharge your productivity when writing and previewing Markdown in **Visual Studio Code** with these powerful extensions:
 
