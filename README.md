@@ -40,7 +40,7 @@ This repository is a practical guide and playground for mastering **Markdown syn
 
 ### <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2699_fe0f/512.gif" alt="⚙" width="15" height="15"> Boost Your Markdown Workflow in VS Code
 
-Supercharge your productivity when writing and previewing Markdown in **Visual Studio Code** with these powerful extensions:gi
+Supercharge your productivity when writing and previewing Markdown in **Visual Studio Code** with these powerful extensions:
 
 - [**Markdownlint**](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)  
   Ensures clean, consistent, and error-free Markdown with real-time linting.
