@@ -45,6 +45,12 @@ Supercharge your productivity when writing and previewing Markdown in **Visual S
 - [**Markdownlint**](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)  
   Ensures clean, consistent, and error-free Markdown with real-time linting.
 
+- [**Markdown All in One**](https://marketplace.visualstudio.com/items/?itemName=yzhang.markdown-all-in-one)  
+  Adds essential Markdown utilities like auto preview, shortcuts, table of contents generation, and more.
+
+- [**Markdown Preview Github Styling**](https://marketplace.visualstudio.com/items/?itemName=bierner.markdown-preview-github-styles)  
+  Renders Markdown preview in VS Code to match GitHub's styling, making documentation look exactly as it would on GitHub.
+
 - [**Mermaid Chart**](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)  
   Instantly render [Mermaid](https://mermaid.js.org/intro/) diagrams for flowcharts, graphs, and more — right in the preview.
 
